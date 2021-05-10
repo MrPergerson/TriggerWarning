@@ -15,53 +15,72 @@
   <body>
 
     <div class="containerposition-relative">
-        <div class="row position-absolute top-50 start-50 translate-middle">
-            <div class="col border">
+        <div class="row position-absolute top-50 start-50 translate-middle" style="max-width: 700px;">
+            <div class="col border px-0">
                 <div id="cover1" class="bg-secondary">
-                        <p>Warning, this message includes misinformation</p>
-                        <button id="cover1-btn" type="button" class="btn btn-outline-light mx-auto">See Message</button>
+                    <svg class="position-absolute bottom-50 start-50 translate-middle mb-3" xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-exclamation-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                        <path d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z"/>
+                    </svg>
+                    <p class="position-absolute bottom-50 start-50 translate-middle">Warning, this message includes misinformation</p>
+                    <button id="cover1-btn" type="button" class="btn btn-outline-light position-absolute top-50 start-50 translate-middle">See Message</button>
                 </div>
 
                 <div id="cover2" class="bg-dark">
-                    <p>Warning, this is a sensitive message.</p>
-                    <button id="cover2-btn" type="button" class="btn btn-outline-light  mx-auto">See Message</button>
+                    <svg class="position-absolute bottom-50 start-50 translate-middle mb-3" xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-exclamation-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                        <path d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z"/>
+                    </svg>
+                    <p class="position-absolute bottom-50 start-50 translate-middle">Warning, this is a sensitive message.</p>
+                    <button id="cover2-btn" type="button" class="btn btn-outline-light position-absolute top-50 start-50 translate-middle">See Message</button>
                 </div>
 
-                <div class="alert alert-danger" role="alert">
-                    Warning: This message may be sensitive
-                </div>
-
-                <p>
-                    These are the things and events that happen when a sacred landslide election victory is so unceremoniously & viciously 
-                    stripped away from great patriots who have been badly & unfairly treated for so long.
-                </p>
-                <div class="alert alert-danger  mt-5" role="alert">
-                    Comments have been disabled. Likes and shares have been hidden.
-                </div>
-                <div class="row row-cols-auto">
-                    <div class="col">
-                        <p>Likes</p>
+                <div class="p-3">
+                    <div class="alert alert-danger" role="alert">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-triangle" viewBox="0 0 16 16">
+                            <path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/>
+                            <path d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z"/>
+                        </svg>
+                        Warning: This message is sensitive and makes a disputed election fraud claim.
                     </div>
-                    <div class="col">
-                        <p>Retweets</p>
+                    <div class="mb-3">
+                        <img style="width: 45px; height: 45px" src="assets/images/you_have_been_warned/45_donald_trump.jpg" class="rounded-circle" alt="...">
+                        <p  class="d-inline">Donald J. Trump</p>
                     </div>
-                    <div class="col">
-                        <p>Comments</p>
+                    
+                    <p>
+                        These are the things and events that happen when a sacred landslide election victory is so unceremoniously & viciously 
+                        stripped away from great patriots who have been badly & unfairly treated for so long. Go home with love & peace. Remember this day forever!
+                    </p>
+                    <p>6:01pm Jan 06, 2021</p>
+                    <div class="alert alert-danger  mt-3" role="alert">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-triangle" viewBox="0 0 16 16">
+                            <path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/>
+                            <path d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z"/>
+                        </svg>
+                        For your protection and others, comments, likes, and shares have been disabled.
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                    <hr>
+                    <div class="row row-cols-auto">
+                        <div class="col">
+                            <p class="mb-0">Likes</p>
+                        </div>
+                        <div class="col">
+                            <p class="mb-0">Retweets</p>
+                        </div>
+                        <div class="col">
+                            <p class="mb-0">Comments</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-evenly">    
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16" data-bs-toggle="tooltip" data-bs-placement="top" title="Likes disabled">
                             <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
                         </svg>
-                    </div>
-                    <div class="col">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16"  data-bs-toggle="tooltip" data-bs-placement="top" title="Sharing disabled">
                             <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
                         </svg>
-                    </div>
-                    <div class="col">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat" viewBox="0 0 16 16">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat" viewBox="0 0 16 16"  data-bs-toggle="tooltip" data-bs-placement="top" title="Commenting disabled">
                             <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
                         </svg>
                     </div>
@@ -69,10 +88,11 @@
             </div>
         </div>
     </div>
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="index.js"></script>
-</body>
-</html>
+        
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+    </body>
+    </html>
+    
