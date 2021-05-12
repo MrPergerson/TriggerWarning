@@ -1,10 +1,16 @@
 $("#cover1-btn").click(() => {
     $("#cover1").addClass( "invisible" );
+    $("#overlay").delay(2000).fadeIn(100);
 });
 
 $("#cover2-btn").click(() => {
     $("#cover2").addClass( "invisible" );
 });
+
+$("#cover3-btn").click(() => {
+  $("#overlay").hide();
+});
+
 
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
