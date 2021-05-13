@@ -9,6 +9,7 @@ $("#cover2-btn").click(() => {
 
 $("#cover3-btn").click(() => {
   $("#overlay").hide();
+  $("#factchecker").delay(1000).fadeIn(100);
 });
 
 
