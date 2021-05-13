@@ -10,6 +10,11 @@ $("#cover2-btn").click(() => {
 $("#cover3-btn").click(() => {
   $("#overlay").hide();
   $("#factchecker").delay(1000).fadeIn(100);
+  $("#policy-notice").delay(2300).fadeIn(100);
+});
+
+$("#btn-close").click(() => {
+  $("#policy-notice").hide();
 });
 
 

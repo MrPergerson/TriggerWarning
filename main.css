@@ -1,6 +1,6 @@
 #main
 {
-    display: relative;
+    position: relative;
     max-width: 700px;
     top: 50vh;
     left: 50vw;
@@ -50,6 +50,33 @@
     background-color: rgba(0,0,0,0.9); /* Black background with opacity */
     z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
     cursor: pointer; /* Add a pointer on hover */
+}
+
+#policy-notice {
+    display: none;
+    position: fixed;
+    width: 800px;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    padding: 16px 16px;
+    z-index: 2;
+    background-color: white;
+    box-shadow: 2px 2px 5px grey;
+}
+
+#btn-close {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#btn-close:hover {
+    background-color: rgb(223, 223, 223);
 }
 
 #factchecker {
