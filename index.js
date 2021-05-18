@@ -11,7 +11,7 @@ $("#cover2-btn").click(() => {
 
 $("#cover3-btn").click(() => {
   $("#overlay").hide();
-
+  $("#warning-signs").fadeIn(100);
 });
 
 $("#btn-close").click(() => {
