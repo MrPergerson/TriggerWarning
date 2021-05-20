@@ -148,21 +148,16 @@
 }
 
 @media only screen and (max-width: 700px) {
-    body {
-        background-image: url("assets/images/you_have_been_warned/warning-banner.png");
-        background-size: contain;
+    #policy-notice{
+        width: 100%;
+    }
 
-
-    }   
- }
-
- @media only screen and (min-width: 700px) {
-    body {
-        background-image: url("assets/images/you_have_been_warned/warning-banner.png");
-        background-size: cover;
-
-
-    }        
+    .top-banner{
+        top: 0px;
+    }
+    .bottom-banner {
+        bottom: 0px;
+    }
  }
 
 
@@ -187,7 +182,6 @@
     .right-banner {
         right: 0px;
     } 
- }
  }
  
 
